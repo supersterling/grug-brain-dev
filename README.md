@@ -8,6 +8,15 @@ Grug brain developer review your code and tell you when complexity demon enter c
 
 ## Installation
 
+### Option 1: skills.sh (Easiest)
+
+Visit [skills.sh](https://skills.sh/) and add:
+```
+https://github.com/supersterling/grug-brain-dev
+```
+
+### Option 2: Manual Install
+
 ```bash
 # Clone into your Claude plugins directory
 cd ~/.claude/plugins
@@ -16,7 +25,8 @@ git clone https://github.com/supersterling/grug-brain-dev.git
 # Plugin will be available in next Claude Code session
 ```
 
-Or for one-time use:
+### Option 3: One-Time Use
+
 ```bash
 cc --plugin-dir ~/.claude/plugins/grug-brain-dev
 ```
@@ -26,7 +36,7 @@ cc --plugin-dir ~/.claude/plugins/grug-brain-dev
 ### Method 1: Slash Command (Explicit)
 
 ```bash
-/grug
+/grug-brain
 ```
 
 Load grug brain reviewer. Then show grug code and grug tell you if too complex.
