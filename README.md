@@ -10,10 +10,11 @@ Grug brain developer review your code and tell you when complexity demon enter c
 
 ### Option 1: skills.sh (Easiest)
 
-Visit [skills.sh](https://skills.sh/) and add:
+```bash
+npx skills add supersterling/grug-brain-dev
 ```
-https://github.com/supersterling/grug-brain-dev
-```
+
+See [skills.sh](https://skills.sh/) for more details.
 
 ### Option 2: Manual Install
 
