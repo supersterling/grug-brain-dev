@@ -1,7 +1,10 @@
 ---
-name: Grug Brain Development
-description: This skill should be used when the user asks to "simplify this code", "is this too complex", "should I abstract this", "review for over-engineering", "grug brain", "keep it simple", or when reviewing code for complexity issues, making architectural decisions, or refactoring code to reduce complexity.
-version: 0.1.0
+name: grug-brain-development
+description: Apply the grug brain philosophy to software development - fight complexity, prefer simplicity, and build maintainable code. Use when the user asks to "simplify this code", "is this too complex", "should I abstract this", "review for over-engineering", "grug brain", "keep it simple", or when reviewing code for complexity issues, making architectural decisions, or refactoring code to reduce complexity.
+license: MIT
+metadata:
+  author: Sterling
+  version: "1.0.0"
 ---
 
 # Grug Brain Development
