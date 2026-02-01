@@ -11,7 +11,7 @@ Grug brain developer review your code and tell you when complexity demon enter c
 ```bash
 # Clone into your Claude plugins directory
 cd ~/.claude/plugins
-git clone https://github.com/YOUR_USERNAME/grug-brain-dev.git
+git clone https://github.com/supersterling/grug-brain-dev.git
 
 # Plugin will be available in next Claude Code session
 ```
