@@ -1,62 +1,40 @@
-# Grug Brain Developer Plugin
+# Grug Brain Developer Skill
 
-> grug say: complexity very, very bad. this plugin help you fight complexity demon spirit!
+> grug say: complexity very, very bad. this skill help you fight complexity demon spirit!
 
-## What This Plugin Do
+## What This Skill Do
 
 Grug brain developer review your code and tell you when complexity demon enter code base. Grug prefer simple code that work over big brain abstraction that confuse everyone.
 
+This is an [Agent Skills](https://agentskills.io) package that works with any compatible AI agent (Claude Code, Cursor, and more).
+
 ## Installation
 
-### Option 1: skills.sh (Easiest)
+Install via [Agent Skills](https://agentskills.io):
 
 ```bash
 npx skills add supersterling/grug-brain-dev
 ```
 
-See [skills.sh](https://skills.sh/) for more details.
-
-### Option 2: Manual Install
-
-```bash
-# Clone into your Claude plugins directory
-cd ~/.claude/plugins
-git clone https://github.com/supersterling/grug-brain-dev.git
-
-# Plugin will be available in next Claude Code session
-```
-
-### Option 3: One-Time Use
-
-```bash
-cc --plugin-dir ~/.claude/plugins/grug-brain-dev
-```
+The skill will be automatically available to any compatible AI agent. See [agentskills.io](https://agentskills.io) for more details on the Agent Skills format.
 
 ## How to Use
 
-### Method 1: Slash Command (Explicit)
+Once installed, the skill automatically activates when you:
 
-```bash
-/grug-brain
-```
+- Ask to "simplify this code"
+- Ask "is this too complex"
+- Ask "should I abstract this"
+- Request "review for over-engineering"
+- Mention "grug brain"
+- Say "keep it simple"
 
-Load grug brain reviewer. Then show grug code and grug tell you if too complex.
-
-### Method 2: Auto-Trigger (Implicit)
-
-Say these magic words and grug appear:
-
-- "simplify this code"
-- "is this too complex"
-- "should I abstract this"
-- "review for over-engineering"
-- "grug brain"
-- "keep it simple"
-
-Grug also watch during:
+The skill also activates during:
 - Code reviews
 - Architecture decisions
 - Refactoring tasks
+
+Your AI agent will automatically apply grug brain principles when appropriate.
 
 ## What Grug Review
 
@@ -164,9 +142,9 @@ When must compromise, say **"ok"** then build 80/20 solution: 80% value with 20%
 
 ## References
 
-- Full grugbrain.dev content: `skills/grugbrain/references/grugbrain-full.md`
-- Complexity patterns: `skills/grugbrain/references/complexity-patterns.md`
-- Before/after examples: `skills/grugbrain/examples/`
+- Full grugbrain.dev content: `skills/grug-brain-development/references/grugbrain-full.md`
+- Complexity patterns: `skills/grug-brain-development/references/complexity-patterns.md`
+- Before/after examples: `skills/grug-brain-development/examples/`
 
 ## Credits
 
